@@ -7,7 +7,7 @@ const port = 3001 //puerto por donde corre la app
 // app.get('/', userR.getData)
 //para que se pueda enviar los datos parseados
 app.use(
-    express.json({
+    express.json({ 
         limit: '20mb'
     })
 )

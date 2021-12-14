@@ -16,4 +16,4 @@ const esquema_user = new mongoose.Schema(
     }
 )
 
-module.exports = mongoose.model('user', esquema_user, 'usuario')
+module.exports = mongoose.model('user', esquema_user, 'usuario') 
